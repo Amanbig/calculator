@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.screen{
+    width: 260px;
+    height: 100px;
+    background-color:aquamarine;
+    margin:10px;
+    border-radius: 10px;
+    border:5px black solid;
+}
+.key{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    background-color:aquamarine;
+    font-size: large;
+    border-radius: 10px;
+    border-width: 5px;
+}
+.key:active{
+    background-color:chartreuse;
+}
+.a,.b,.c,.d,.e{
+    display: flex;
+}
